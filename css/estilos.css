@@ -16,7 +16,7 @@
 
 .background-main{
     height: 100vh;
-    background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)),url(../img/imagen1.svg);
+    background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)),url(../img/bg-1.jp
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 89%, 51% 100%, 0 89%);
     clip-path: polygon(0 0, 100% 0, 100% 89%, 51% 100%, 0 89%);
 }
