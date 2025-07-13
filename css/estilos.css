@@ -1,0 +1,84 @@
+:root {
+  --rosa: #f4c6c9;
+  --dorado: #d2b48c;
+  --blanco: #fffaf5;
+  --gris: #a39894;
+  --fuente-titulo: 'Playfair Display', serif;
+  --fuente-texto: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fuente-texto);
+  background-color: var(--blanco);
+  color: var(--gris);
+}
+
+header.hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../assets/img/hero.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--blanco);
+}
+
+header.hero h1 {
+  font-size: 3rem;
+  font-family: var(--fuente-titulo);
+}
+
+.cta {
+  margin-top: 1em;
+  padding: 0.8em 1.5em;
+  background-color: var(--rosa);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 3em 1em;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  font-family: var(--fuente-titulo);
+  font-size: 2rem;
+  color: var(--rosa);
+}
+
+.galeria img {
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.8em;
+  border: 1px solid var(--gris);
+  border-radius: 5px;
+}
+
+form button {
+  background-color: var(--dorado);
+  color: white;
+  padding: 0.8em 1.2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: var(--rosa);
+  color: white;
+}
