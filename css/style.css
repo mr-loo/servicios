@@ -127,3 +127,14 @@ footer.footer .social-link {
 footer.footer .social-link:hover{
     background-color: rgba(20,20,20, .5);
 }
+
+@media (max-width: 768px) {
+  .background-main h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  .main-link {
+    font-size: 1.5rem;
+    padding: 0.7em 1.2em;
+  }
+}
